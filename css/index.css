@@ -1,0 +1,64 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+ }
+
+ div {
+   margin-bottom: 10px;
+ }
+
+ label {
+   display: block;
+   margin-bottom: 5px;
+   color: #333;
+ }
+
+ input {
+   padding: 8px;
+   width: 200px;
+   box-sizing: border-box;
+ }
+
+ button {
+   padding: 10px;
+   background-color: #4caf50;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+ }
+
+ button:hover {
+   background-color: #45a049;
+ }
+
+ #productTable {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+ }
+
+ #productTable th, #productTable td {
+   border: 1px solid #ddd;
+   padding: 10px;
+   text-align: left;
+ }
+
+ #productTable th {
+   background-color: #3498db;
+   color: white;
+ }
+
+ .odd-row {
+   background-color: #ecf0f1;
+ }
+
+ .even-row {
+   background-color: #d5dbdb;
+ }
